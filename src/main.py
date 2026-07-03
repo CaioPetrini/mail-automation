@@ -1,9 +1,8 @@
 def exibir_mensagem(mensagem):
         print(mensagem)
-
-def iniciar_aplicacao():
-    
-    mensagem_de_boas_vindas = """
+        
+def obter_mensagem_boas_vindas():
+        return """
 ====================================
 MAIL AUTOMATION
 ====================================
@@ -14,7 +13,10 @@ Inicializando aplicação...
         
 Aplicação iniciada com sucesso!
 """
+
+def iniciar_aplicacao():
     
-    exibir_mensagem(mensagem_de_boas_vindas)
+    mensagem = obter_mensagem_boas_vindas()
+    exibir_mensagem(mensagem)
       
 iniciar_aplicacao()
