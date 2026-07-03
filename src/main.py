@@ -1,15 +1,15 @@
-def iniciarAplicacao():
-    mensagemDeBoasVindas = """
-        ====================================
-        MAIL AUTOMATION
-        ====================================
+def iniciar_aplicacao():
+    mensagem_de_boas_vindas = """
+====================================
+MAIL AUTOMATION
+====================================
 
-        Bem-vindo ao Mail Automation!
+Bem-vindo ao Mail Automation!
 
-        Inicializando aplicação...
+Inicializando aplicação...
         
-        Aplicação iniciada com sucesso!"""
+Aplicação iniciada com sucesso!"""
         
-    print(mensagemDeBoasVindas)
+    print(mensagem_de_boas_vindas)
           
-iniciarAplicacao()
+iniciar_aplicacao()
